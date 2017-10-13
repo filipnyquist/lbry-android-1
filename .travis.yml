@@ -26,4 +26,4 @@ install:
       - mv ~/.buildozer/android/platform/android-sdk-21/platforms/android-5.0.1 ~/.buildozer/android/platform/android-sdk-21/platforms/android-21
 script:
       - buildozer android debug | grep -v 'working:' --line-buffered
-      - cp bin/*.apk /dev/null
+      - ls bin/
